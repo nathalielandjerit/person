@@ -11,6 +11,9 @@ class Person
 	def prenom
 		return @prenom
 	end
+	def age
+		return @age
+	end
 
 	#setter
 	def nom=(un_nom)
@@ -18,6 +21,9 @@ class Person
 	end
 	def prenom=(un_prenom)
 		@prenom = un_prenom
+	end
+	def age=(un_age)
+		@age = un_age
 	end
 
 end
